@@ -1,0 +1,208 @@
+ge <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>HTML Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <style>
+    body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: lightgoldenrodyellow;
+}
+
+.header h1 {
+  color: #000;
+}
+
+.header .social a {
+  padding: 5px;
+  color: #000 !important;
+}
+
+.left {
+  float: left;
+  width: 180px;
+  padding: 15px;
+
+}
+
+.left img{
+    text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+}
+
+ul li a:hover{
+    background: cyan;
+}
+
+.content {
+  border-left: 1px solid black;
+  overflow: hidden;
+  margin-left: 200px;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(69, 207, 253);
+  padding: 40px;
+  color: #000;
+  text-align: center;
+}
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <header class="header">
+      <h1>Ankit Singh</h1>
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+
+    </header>
+    <aside class="left">
+      <img src="Ankit.jpeg" width="150px" />
+      <ul>
+        <li>
+          <a href="#home">HOME</a>
+        </li>
+        <li>
+          <a href="#home">CAREERS</a>
+        </li>
+        <li>
+          <a href="#home">CONTACT</a>
+        </li>
+        <li>
+          <a href="#home">ABOUT</a>
+        </li>
+      </ul>
+      <br>
+
+      <p>"Do something important in life. I convert green grass to code."<br>- Mr Camel</p>
+    </aside>
+
+    <main class="content">
+      <h2>ABOUT ME</h2>
+      <h6> Hello </h6>
+      <p>
+        "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+        "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+
+      </p>
+      <h2>MY CAREER</h2>
+      <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+        "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+      </p>
+
+      <hr>
+      <br>
+
+      <h2>SKILLSET</h2>
+      <table>
+        <tr>
+          <th>
+            SKILL 1
+          </th>
+          <th>
+            SKILL 2
+          </th>
+          <th>
+            SKILL 3
+          </th>
+        </tr>
+        <tr>
+          <td>
+            <i class="fas fa-broom"></i>
+          </td>
+          <td>
+            <i class="fab fa-facebook"></i>
+          </td>
+          <td>
+            <i class="fab fa-facebook"></i>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            JAVA
+          </td>
+          <td>
+            JAVA
+          </td>
+          <td>
+            JAVA
+          </td>
+        </tr>
+      </table>
+      <br>
+      <form>
+        <label>EMAIL : <input type="text" name="email"></label><br>
+        <label>Mobile :<input type="text" name="mobile"></label><br>
+        <textarea name="COMMENTS" rows="5" cols="10">Enter Your Message </textarea><br>
+        <input type="submit" value="Submit" />
+        <br>
+
+      </form>
+
+
+
+    </main>
+    <footer class="footer">
+      &copy; Ankit Singh
+    </footer>
+
+  </div>
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
+

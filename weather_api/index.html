@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather API</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+        <h1 class="center">Check Weather</h1>
+    <div class="center">
+        <input type="text" id="city_name" placeholder="Enter City Name" />
+        <button id="getWeatherBtn">Check</button>
+        <div><small id="displayError"></small></div>
+    </div>
+
+    <table>
+      <thead>
+        <!-- <tr>
+            <th>Id</th>
+          <th>Name</th>
+          <th>Username</th>
+          <th>Email</th>
+        </tr> -->
+
+        <tr>
+            <th>City</th>
+            <th>Temperature</th>
+            <th>Humidity</th>
+            <th>Air Pressure</th>
+            <th>Wind Speed</th>
+          </tr>
+      </thead>
+      <tbody id="tbody">
+        
+      </tbody>
+    </table>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

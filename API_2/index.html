@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Food Information</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Food Information</h1>
+
+  <!-- Button container -->
+  <div class="btn-container">
+    <button onclick="showAll()">All Food Items</button>
+    <button onclick="showCategory('Vegetable')">Vegetables</button>
+    <button onclick="showCategory('Fruit')">Fruits</button>
+    <button onclick="showCategory('Protein')">Proteins</button>
+    <button onclick="showCategory('Nuts')">Nuts</button>
+    <button onclick="showCategory('Grain')">Grains</button>
+    <button onclick="showCategory('Dairy')">Dairy</button>
+    <button onclick="showCaloriesAbove()">Calories Above 100</button>
+    <button onclick="showCaloriesBelow()">Calories Below 100</button>
+    <button onclick="sortByProtein()">Sort by Protein (High to Low)</button>
+    <button onclick="sortByCarbohydrates()">Sort by Carbohydrates (Low to High)</button>
+  </div>
+
+  <table id="foodTable">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Calories</th>
+        <th>Category</th>
+        <th>Proteins</th>
+        <th>Carbohydrates</th>
+      </tr>
+    </thead>
+    <tbody id="foodTableBody">
+      <!-- Food data will be displayed here -->
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>

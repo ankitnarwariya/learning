@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: arial, sans-serif;
+}
+.center{
+  text-align: center;
+}
+
+.container h1 {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: #5f9ea0;
+}
+
+small{
+  color: red;
+  margin-top: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    min-width: 700px;
+    margin-top: 2rem;
+  }
+  
+  td, th, input#city_name, button#getWeatherBtn {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ddd;
+  }

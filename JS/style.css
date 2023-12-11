@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background: #efefef;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.social-icon{
+    float: right;
+}
+
+.social-icon ul{
+    list-style: none;
+    display: inline;
+}
+
+.social-icon li{
+    display: inline;
+}
+.social-icon li img{
+    width: 1.5rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+  }
+  /* .left {
+    background: #fcc;
+  }
+  .right {
+    background: #fea;
+  } */
+  .left {
+    padding: 5%;
+  }
+
+  .right {
+    padding: 2%;
+    border-left: solid 1px;
+  }
+
+.profile img{
+    width: 50%;
+}
+
+.menu ul{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.menu ul li {
+    width: 100%;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.menu ul li:hover {
+    width: 100%;
+    background: cyan;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.bio p{
+    margin-bottom: 15px;
+}
+
+.about, .career, .help {
+    margin-bottom: 10px;
+}
+
+h2{
+    margin: 10px 0;
+}
+
+.help ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.help ul h4{    
+    font-weight: bold;
+    background-color: cyan;
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+
+.help ul img {
+    width: 15%;
+}
+
+.help form {
+    margin-top: 30px;
+}
+
+footer h5 {
+    color: #fff;
+    background: #4545ff;
+    text-align: center;
+    padding: 20px;
+}

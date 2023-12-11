@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .form-input{
+        @apply w-full border-blue-300 rounded-lg shadow-lg focus:outline-none focus:border-blue-600;
+    }
+}
