@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Page</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+      }
+
+      h2 {
+        color: #333;
+      }
+
+      form {
+        max-width: 400px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      label {
+        display: block;
+        margin-bottom: 8px;
+        color: #555;
+      }
+
+      input {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      input[type="submit"] {
+        background-color: #4caf50;
+        color: #fff;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Registration Form</h2>
+
+    <form action="/api/register" method="POST">
+      <!-- First Name Field -->
+      <label for="first_name">First Name:</label>
+      <input type="text" id="first_name" name="first_name" />
+
+      <br />
+
+      <!-- Last Name Field -->
+      <label for="last_name">Last Name:</label>
+      <input type="text" id="last_name" name="last_name" />
+
+      <br />
+
+      <!-- Email Field -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" />
+
+      <br />
+
+      <!-- Submit Button -->
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

@@ -1,8 +1,9 @@
 import React from 'react'
-import { NavLink } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 
 const Header = () => {
   return (
+    <>
     <ul>
         <li>
           <NavLink to= '/' >Home</NavLink>
@@ -14,6 +15,7 @@ const Header = () => {
           <NavLink to= '/contact' >Contact</NavLink>
         </li>
       </ul>
+    <Outlet/></>
   )
 }
 
